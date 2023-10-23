@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <img src="Smart.png" height="213" width="240" id="image1" />
+      <p>Device</p>
+      <div>
+        <p>Firmware</p>
+        <p id="version"><span class="fa fa-check"></span>10.1.2.0</p>
+      </div>
+      <div>
+        <img
+          src="ButtonOff.png"
+          id="image"
+          alt="Power Button"
+          width="40"
+          height="40"
+        />
+        <p>Power</p>
+        <button class="button" value="ON" id="btn" onclick="myFunctionOn()">
+          ON
+        </button>
+        <button class="button" value="OFF" id="btn1" onclick="myFunctionOff()">
+          OFF
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
